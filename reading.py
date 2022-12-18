@@ -1,6 +1,7 @@
 import openpyxl
 import pandas
 # Вариант №1
+
 def read():
     book = openpyxl.open('my_project.xlsx', 'r')
     sheet = book.active
@@ -13,3 +14,4 @@ def read():
 # def read():
 #     data = pandas.read_excel("my_project.xlsx")
 #     print(data)
+    
